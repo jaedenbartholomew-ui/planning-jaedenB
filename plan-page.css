@@ -1,0 +1,75 @@
+body {
+    font-family: Lato, sans-serif;
+    background: url("images/plan-page.jpg") center top no-repeat;
+    background-color: #f0f0f0;
+    font-size: 16px;
+    width: 1180px;
+    margin: 0 auto;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+
+article {
+    background: #262626;
+    width: 310px;
+    display: inline-block;
+    margin: 0;
+    padding: 20px 25px 30px;
+    border: 5px solid #424242;
+    color: #a1a1a1;
+    text-align: center;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+
+article h1 {
+    font-size: 2.2em;
+    color: #FFF;
+    margin: 0 0 18px;
+    line-height: 1.2;
+}
+
+article p {
+    margin: 0 0 16px;
+    line-height: 1.5;
+}
+
+.price {
+    font-size: 3em;
+    font-weight: bold;
+    color: #27dcc4;
+    margin: 18px 0 20px;
+}
+
+ul {
+    padding: 0;
+    margin: 0 0 24px;
+    list-style: none;
+}
+
+button {
+    background: #27dcc4;
+    color: #FFF;
+    padding: 15px 30px;
+    margin: 10px 0 0;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: none;
+    width: 100%;
+    font-weight: 700;
+}
+
+button:hover {
+    background: #ACACAC;
+}
+
+li {
+    list-style-type: none;
+    padding: 8px 0;
+    font-size: 1.05em;
+}
